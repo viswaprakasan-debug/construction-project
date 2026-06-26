@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nutrition products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f9f8;
+        }
+
+        header {
+            background: #e7c669;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cart {
+            background: white;
+            color: #7a741f;
+            padding: 10px 12px;
+            border-radius: 15px;
+        }
+
+        .hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url("https://truelifewellness.com/wp-content/uploads/2024/11/Understanding-the-Power-of-Nutrition-for-Your-Health-and-Well-Being.png");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-top: 20px;
+        }
+
+        .products {
+            padding: 50px;
+        }
+
+        .products h2 {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow:  7px 25px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 290px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 30px;
+        }
+
+        .price {
+            color: #627a1f;
+            font-weight: bold;
+        }
+
+        button,
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            background: #787a1f;
+            border: none;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover,
+        .buy-btn:hover {
+            background: #14594f;
+        }
+
+
+        .banner img
+        {   
+            margin-left: 35px;
+            margin-top: 100px;
+            margin-bottom: 90px;
+            margin-right: 10px;
+            height: 90vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            background: #5f5059;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>nutriloss</h1>
+      
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="cart">Cart: 0</div>
+    </header>
+
+
+
+    <section class="hero">
+        <div>
+            <h2>PROTEIN POWDER</h2>
+            <p>HEALTHY LIFE </p>
+        </div>
+    </section>
+
+
+
+    <section class="products">
+        <h2>PROTEIN</h2>
+
+    
+
+        <div class="product-grid">
+
+            <div class="card">
+                <img src="https://www.nestlenutritionstore.com/media/catalog/product/cache/03727ac142738ad07bad74a5d7678128/b/o/boost_very_high_calories_nns_family_3_flavors_900x900_cartons-min.png"
+                    alt="healthy">
+                <div class="card-content">
+                    <h3>PROTEIN POWDER</h3>
+                    <p>morning energitic shake in regular .</p>
+                    <p class="price">₹399</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    <a href="#" class="buy-btn">Buy now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/41nUk4Qk5-L._SY300_SX300_QL70_FMwebp_.jpg" alt="protein">
+                <div class="card-content">
+                    <h3>WEIGHT LOSS</h3>
+                    <p>every glass erase easier in your fats.</p>
+                    <p class="price">₹549</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    <a href="#" class="buy-btn">Buy now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/3/401009678/UW/QI/JN/216664781/weight-gainer-supplement-500x500.png"
+                    alt="healthy">
+                <div class="card-content">
+                    <h3>STRENGTH BOOSTER</h3>
+                    <p>its very power activation power drink.</p>
+                    <p class="price">₹459</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    <a href="#" class="buy-btn">Buy now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.guardian.in/cdn/shop/files/90200021.jpg?v=1725515724&width=300" alt="its gud">
+                <div class="card-content">
+                    <h3>weight gain</h3>
+                    <p>easily gain this powder its so energytic.</p>
+                    <p class="price">₹450</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    <a href="#" class="buy-btn">Buy now</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="banner">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_C2NbS4Wfu8dgHCvBx8HgqxSExkrllr98Da6t1Lpmg&s=10">
+                </div>
+
+               <div class="new">
+                  <div class="card">
+                <img src="https://www.nestlenutritionstore.com/media/catalog/product/cache/03727ac142738ad07bad74a5d7678128/b/o/boost_very_high_calories_nns_family_3_flavors_900x900_cartons-min.png"
+                    alt="healthy">
+                <div class="card-content">
+                    <h3>PROTEIN POWDER</h3>
+                    <p>morning energitic shake in regular .</p>
+                    <p class="price">₹399</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                    <a href="#" class="buy-btn">Buy now</a>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <p>© 2026 nutrition products</p>
+    </footer>
+
+</body>
+
+</html>
