@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nutrition products</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
             background: #f7f9f8;
+            overflow-x: hidden;
         }
 
         header {
@@ -76,7 +79,7 @@
         .card {
             background: white;
             border-radius: 12px;
-            box-shadow:  7px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 7px 25px rgba(0, 0, 0, 0.1);
 
         }
 
@@ -118,8 +121,7 @@
         }
 
 
-        .banner img
-        {   
+        .banner img {
             margin-left: 35px;
             margin-top: 100px;
             margin-bottom: 90px;
@@ -134,12 +136,23 @@
             text-align: center;
         }
 
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+
+        }
+
         footer {
+            margin: 0 0px;
             background: #5f5059;
             color: white;
             text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+            padding: 10px;
+            width: 100%;
+            /* margin-left: -100px; */
+            /* margin-right: 20px; */
+            height: 100px;
         }
     </style>
 </head>
@@ -148,7 +161,7 @@
 
     <header>
         <h1>nutriloss</h1>
-      
+
 
         <nav>
             <a href="#">Home</a>
@@ -173,7 +186,7 @@
     <section class="products">
         <h2>PROTEIN</h2>
 
-    
+
 
         <div class="product-grid">
 
@@ -224,27 +237,68 @@
             </div>
 
         </div>
-        <div class="banner">
+
+         <div class="banner">
             <div>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_C2NbS4Wfu8dgHCvBx8HgqxSExkrllr98Da6t1Lpmg&s=10">
                 </div>
-
-               <div class="new">
-                  <div class="card">
-                <img src="https://www.nestlenutritionstore.com/media/catalog/product/cache/03727ac142738ad07bad74a5d7678128/b/o/boost_very_high_calories_nns_family_3_flavors_900x900_cartons-min.png"
-                    alt="healthy">
-                <div class="card-content">
-                    <h3>PROTEIN POWDER</h3>
-                    <p>morning energitic shake in regular .</p>
-                    <p class="price">₹399</p>
-                    <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
-                    <a href="#" class="buy-btn">Buy now</a>
-                </div>
             </div>
-    </section>
-    <footer>
-        <p>© 2026 nutrition products</p>
-    </footer>
+            
+            <div class="product-grid">
+        
+                    <div class="card">
+                        <img src="https://www.nestlenutritionstore.com/media/catalog/product/cache/03727ac142738ad07bad74a5d7678128/b/o/boost_very_high_calories_nns_family_3_flavors_900x900_cartons-min.png"
+                            alt="healthy">
+                        <div class="card-content">
+                            <h3>PROTEIN POWDER</h3>
+                            <p>morning energitic shake in regular .</p>
+                            <p class="price">₹399</p>
+                            <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                            <a href="#" class="buy-btn">Buy now</a>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/41nUk4Qk5-L._SY300_SX300_QL70_FMwebp_.jpg" alt="protein">
+                        <div class="card-content">
+                            <h3>WEIGHT LOSS</h3>
+                            <p>every glass erase easier in your fats.</p>
+                            <p class="price">₹549</p>
+                            <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                            <a href="#" class="buy-btn">Buy now</a>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2024/3/401009678/UW/QI/JN/216664781/weight-gainer-supplement-500x500.png"
+                            alt="healthy">
+                        <div class="card-content">
+                            <h3>STRENGTH BOOSTER</h3>
+                            <p>its very power activation power drink.</p>
+                            <p class="price">₹459</p>
+                            <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                            <a href="#" class="buy-btn">Buy now</a>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <img src="https://www.guardian.in/cdn/shop/files/90200021.jpg?v=1725515724&width=300" alt="its gud">
+                        <div class="card-content">
+                            <h3>weight gain</h3>
+                            <p>easily gain this powder its so energytic.</p>
+                            <p class="price">₹450</p>
+                            <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                            <a href="#" class="buy-btn">Buy now</a>
+                        </div>
+                    </div>
+        
+                </div>
+        </section> 
+       
+   
+        <footer>
+            <p>© 2026 nutrition products</p>
+        </footer>
 
 </body>
 
